@@ -1,0 +1,118 @@
+.post-design {
+  background-color: #f8f8f8;
+}
+
+.blog-items {
+  padding: 15px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.section {
+  background-color: #d3e4f0;
+}
+
+.div-notas {
+  padding: 20px 17px;
+  background-color: #f7f7f7;
+}
+
+.destacado {
+  margin-bottom: 25px;
+  color: #ee5c7f;
+  font-weight: 700;
+}
+
+.body {
+  background-color: #cecdce;
+}
+
+.image {
+  width: 400px;
+  padding-top: 80px;
+}
+
+.text-block {
+  opacity: 0.7;
+  font-family: aktiv-grotesk, sans-serif;
+  color: #3c3c3b;
+  font-size: 13px;
+}
+
+.div-block {
+  padding-top: 40px;
+  padding-left: 234px;
+}
+
+.image-2 {
+  margin-right: 8px;
+  padding-top: 20px;
+}
+
+.link {
+  color: #3c3c3b;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.links {
+  color: #3c3c3b;
+  text-decoration: underline;
+}
+
+@media (max-width: 479px) {
+  .image {
+    width: 280px;
+  }
+  .div-block {
+    padding-left: 18px;
+  }
+}
+
